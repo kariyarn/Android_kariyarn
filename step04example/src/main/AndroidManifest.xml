@@ -10,12 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hello"
         android:usesCleartextTraffic="true">
-        <!--   ^- https가 아닌 http요청을 가능하도록 설정     -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
